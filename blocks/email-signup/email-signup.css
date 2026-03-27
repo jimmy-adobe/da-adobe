@@ -1,0 +1,14 @@
+.email-signup {
+  padding: 20px;
+  background-color: var(--light-color, #f5f5f5);
+}
+
+.email-signup .email-signup-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.email-signup p {
+  margin: 8px 0;
+  font-size: var(--body-font-size-s, 14px);
+}

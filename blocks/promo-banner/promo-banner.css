@@ -1,0 +1,41 @@
+.promo-banner {
+  position: relative;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.promo-banner .promo-banner-content {
+  position: relative;
+}
+
+.promo-banner .promo-banner-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.promo-banner .promo-banner-image picture,
+.promo-banner .promo-banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.promo-banner .promo-banner-text {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.promo-banner .promo-banner-text p {
+  margin: 8px 0;
+}
+
+@media (width >= 900px) {
+  .promo-banner {
+    padding: 60px 40px;
+  }
+}

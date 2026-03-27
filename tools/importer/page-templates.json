@@ -1,0 +1,106 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://main--eds-react-coleman--ensemble-software.aem.live/"
+      ],
+      "description": "Homepage with hero, featured content sections, and call-to-action areas",
+      "blocks": [
+        {
+          "name": "columns",
+          "instances": [
+            ".columns.full-width.block"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            ".cards.grid-3.block",
+            ".cards.grid-2.block"
+          ]
+        },
+        {
+          "name": "promo-banner",
+          "instances": [
+            ".promo-banner.block"
+          ]
+        },
+        {
+          "name": "carousel",
+          "instances": [
+            ".carousel.block"
+          ]
+        },
+        {
+          "name": "email-signup",
+          "instances": [
+            ".email-signup.block"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-hero",
+          "name": "Hero Banner",
+          "selector": ".section.full-width.columns-container",
+          "style": null,
+          "blocks": [
+            "columns"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-categories",
+          "name": "Product Categories",
+          "selector": ".section.cards-container:nth-child(2)",
+          "style": null,
+          "blocks": [
+            "cards"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-promo",
+          "name": "Promotional Banner",
+          "selector": ".section.full-width.promo-banner-container",
+          "style": "dark",
+          "blocks": [
+            "promo-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-carousel",
+          "name": "Product Carousel",
+          "selector": ".section.carousel-container",
+          "style": null,
+          "blocks": [
+            "carousel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-features",
+          "name": "Feature Cards",
+          "selector": ".section.cards-container:nth-child(5)",
+          "style": null,
+          "blocks": [
+            "cards"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-signup",
+          "name": "Email Signup",
+          "selector": ".section.email-signup-container",
+          "style": null,
+          "blocks": [
+            "email-signup"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

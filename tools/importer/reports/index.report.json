@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://main--eds-react-coleman--ensemble-software.aem.live/",
+  "path": "index",
+  "timestamp": "2026-03-27T02:51:59.425Z",
+  "title": "Home | AEM React Coleman POC",
+  "template": "homepage",
+  "blocks": [
+    "columns",
+    "cards",
+    "cards",
+    "promo-banner",
+    "carousel",
+    "email-signup"
+  ]
+}
