@@ -1,4 +1,7 @@
-import { fetchPlaceholders } from '../../scripts/aem.js';
+// fetchPlaceholders not available in this project; use inline defaults
+async function fetchPlaceholders() {
+  return {};
+}
 
 function updateActiveSlide(slide) {
   const block = slide.closest('.carousel');
