@@ -1,0 +1,28 @@
+.promo-banner {
+    position: relative;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    background-color: #1a1a2e;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo-banner .promo-banner-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.promo-banner .promo-banner-text p {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.promo-banner .promo-banner-text p:last-child {
+    font-size: 0.875rem;
+    font-weight: 400;
+    opacity: 0.8;
+}

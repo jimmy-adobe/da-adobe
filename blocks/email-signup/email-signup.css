@@ -1,0 +1,18 @@
+.email-signup {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.email-signup .email-signup-heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.email-signup .email-signup-disclaimer {
+    font-size: 0.75rem;
+    color: #666;
+    line-height: 1.4;
+}
